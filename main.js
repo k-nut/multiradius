@@ -1,8 +1,11 @@
 var circles = null;
 var radiuses = [100, 200, 300];
-var lastCoordinates = [];
+var lastCoordinates = null;
 
 function addMarkerWithRadius(latlon){
+  if (latlon === undefined || latlon === null){
+    return
+  }
   //TODO: refactor this to remove global variables
   if (typeof(circles) !== "undefined"  && typeof(marker) !== "undefined"){
     map.removeLayer(circles);
