@@ -1,0 +1,1363 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+{
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.43576122616, 
+          52.5208588
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Spartacus-Grundschule", 
+        "address": "Friedenstr. 40-45"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.4543811, 
+          52.5241725
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Hausburg-Grundschule", 
+        "address": "Hausburgstr. 20"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.4579450327046, 
+          52.51849515
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Justus-von-Liebig-Grundschule", 
+        "address": "Liebigstr. 18A"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.4711074656249, 
+          52.5190241
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Pettenkofer-Grundschule", 
+        "address": "Pettenkoferstr. 20-24"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.4314031, 
+          52.5160736
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Blumen-Grundschule", 
+        "address": "Andreasstr. 50-52"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.4496384102451, 
+          52.51427455
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Ludwig-Hoffmann-Grundschule", 
+        "address": "Lasdehner Str. 21-23"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.4718133615491, 
+          52.51142925
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Grundschule am Traveplatz", 
+        "address": "Jessnerstr. 24-32"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.4649350895053, 
+          52.50858135
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Zille-Grundschule", 
+        "address": "Boxhagener Str. 45-46"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.4598802479291, 
+          52.5070483
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Modersohn-Grundschule", 
+        "address": "Niemannstr. 3"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.4759537321642, 
+          52.49291715
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Thalia-Grundschule", 
+        "address": "Alt-Stralau 34"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.3885291638193, 
+          52.5049216
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Kurt-Schumacher-Grundschule", 
+        "address": "Puttkamerstr. 19"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.381819250475, 
+          52.4906735
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Charlotte-Salomon-Grundschule", 
+        "address": "Gro\u00dfbeerenstr. 40"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.3916433, 
+          52.5017416
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Galilei-Grundschule", 
+        "address": "Friedrichstr. 13"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.4292748096106, 
+          52.5048876
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "e.o.plauen-Grundschule", 
+        "address": "Wrangelstr. 136"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.3918991330785, 
+          52.4934713
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Lenau-Grundschule ", 
+        "address": "Nostitzstr. 60"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.4277364332593, 
+          52.50515565
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "N\u00fcrtingen-Grundschule", 
+        "address": "Mariannenplatz 28"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.3793802352948, 
+          52.5028753
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Fanny-Hensel-Grundschule", 
+        "address": "Sch\u00f6neberger Str. 23"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.4054235054976, 
+          52.4944086
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "B\u00fcrgermeister-Herz-Grundschule", 
+        "address": "Wilmsstr. 10"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.3999142196511, 
+          52.49106695
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Reinhardswald-Grundschule", 
+        "address": "Gneisenaustr. 73"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.4159802, 
+          52.4970803
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Jens-Nydahl-Grundschule", 
+        "address": "Kohlfurter Str. 20"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.4448363302612, 
+          52.49586785
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Fichtelgebirge-Grundschule", 
+        "address": "G\u00f6rlitzer Ufer 2"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.4020273078075, 
+          52.500192
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Otto-Wels-Grundschule", 
+        "address": "Alexandrinenstr. 12"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.4164014428755, 
+          52.49394375
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Lemgo-Grundschule", 
+        "address": "B\u00f6ckhstr. 5"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.426561013046, 
+          52.4979178838336
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Hunsr\u00fcck-Grundschule", 
+        "address": "Manteuffelstr. 79"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.428728959692, 
+          52.50005045
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Heinrich-Zille-Grundschule", 
+        "address": "Waldemarstr. 118"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.3805679754875, 
+          52.4908613606306
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Adolf-Gla\u00dfbrenner-Grundschule", 
+        "address": "Hagelberger Str. 34"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.384839287521, 
+          52.50094015
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Clara-Grunwald-Grundschule", 
+        "address": "Hallesche Str. 24"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.4052186334926, 
+          52.4927247574501
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Aziz-Nesin-Grundschule", 
+        "address": "Urbanstr. 15"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.4678313393492, 
+          52.5129116
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "34. Grundschule", 
+        "address": "Scharnweber Str. 19"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.4309933424306, 
+          52.49500145
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Rosa-Parks-Grundschule", 
+        "address": "Reichenberger Str. 64"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.438108653369, 
+          52.51512925
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Ellen-Key-Oberschule", 
+        "address": "R\u00fcdersdorfer Str. 20-27"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.4063846913735, 
+          52.49183
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Carl-von-Ossietzky-Oberschule", 
+        "address": "Bl\u00fccherstr. 46/47"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.3831335376446, 
+          52.4978921580084
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Hector-Peterson-Schule", 
+        "address": "Tempelhofer Ufer 15"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.3893214765562, 
+          52.49174305
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Lina-Morgenstern-Gemeinschaftsschule", 
+        "address": "Gneisenaustr. 7"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.4259677, 
+          52.5256578
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Schule am K\u00f6nigstor", 
+        "address": "Weinstr. 3"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.457843853873, 
+          52.50256405
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Emanuel-Lasker-Oberschule", 
+        "address": "Modersohnstr. 53"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.4498523869518, 
+          52.5189731322306
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Georg-Weerth-Oberschule", 
+        "address": "Eckertstr. 16A"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.435680936587, 
+          52.49901455
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "8. Integrierte Sekundarschule", 
+        "address": "Skalitzer Str. 55"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.4189653, 
+          52.4945116
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "9. Integrierte Sekundarschule", 
+        "address": "Graefestr. 85-88 "
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.4012120511967, 
+          52.48903365
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "10. Integrierte Sekundarschule", 
+        "address": "Bergmannstr. 64"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.4488991, 
+          52.5142832
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Schule am Friedrichshain", 
+        "address": "Lasdehner Str. 19"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.4453678, 
+          52.5149003
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Schule am Friedrichshain (Filiale)", 
+        "address": "Marchleswkistr. 25d,e"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.4163601070671, 
+          52.4967432
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Gustav-Meyer-Schule", 
+        "address": "Kohlfurter Str. 22"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.4347193, 
+          52.5200093
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Margarethe-von-Witzleben-Schule", 
+        "address": "Palisadenstr. 76/78"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.4302831, 
+          52.5156348
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Bernhard-Rose-Schule", 
+        "address": "Singerstr. 87"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.431947,
+          52.494221
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Paul-Dohrmann-Schule", 
+        "address": "Forster Stra\u00dfe 15"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.3916343, 
+          52.5018045
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Liebmann-Schule", 
+        "address": "Friedrichstr. 13"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.4346942501001, 
+          52.51405985
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Andreas-Oberschule", 
+        "address": "Koppenstr. 76"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.4627105450205, 
+          52.51704745
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Heinrich-Hertz-Oberschule", 
+        "address": "Rigaer Str. 81/82"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.456221686189, 
+          52.5146702
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Georg-Friedrich-H\u00e4ndel-Oberschule", 
+        "address": "Frankfurter Allee 6A"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.4458186, 
+          52.5102342
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Dathe-Oberschule", 
+        "address": "Helsingforser Str. 11-13"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.3974233978709, 
+          52.48993635
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Leibniz-Oberschule", 
+        "address": "Schleiermacherstr. 23"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.4157204, 
+          52.4929968
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Robert-Koch-Oberschule", 
+        "address": "Dieffenbachstr. 60"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.4193062778805, 
+          52.4933808
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Hermann-Hesse-Oberschule", 
+        "address": "B\u00f6ckhstr. 16"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.4002509, 
+          52.5371176
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Grundschule am Arkonaplatz", 
+        "address": "Ruppiner Str. 47/48"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.3901035, 
+          52.5326789
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Papageno Grundschule", 
+        "address": "BerGrundschuletr. 58"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.4019871, 
+          52.5270372
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Kastanienbaum Grundschule", 
+        "address": "Gipsstr. 23a"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.380509637789, 
+          52.52726265
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Grundschule Neues Tor", 
+        "address": "Hannoversche Str.20"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.3838385579444, 
+          52.51298025
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Grundschule am Brandenburger Tor", 
+        "address": "Wilhelmstr. 52"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.4082331600537, 
+          52.50776285
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "City Grundschule", 
+        "address": "Sebastianstr.  57"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.3538279335499, 
+          52.5296765
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Kurt-Tucholsky Grundschule", 
+        "address": "Rathenower Str. 18"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.3560020182191, 
+          52.5182098
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Anne-Frank Grundschule", 
+        "address": "Paulstr. 20 b"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.3573177415307, 
+          52.5223589
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Moabiter Grundschule", 
+        "address": "Paulstr. 28"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.3321246212936, 
+          52.5284386
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Carl-Bolle Grundschule", 
+        "address": "Waldenserstr. 21"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.3403705173138, 
+          52.5206768
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Hansa Grundschule", 
+        "address": "LessinGrundschuletr. 5"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.3563215305779, 
+          52.55646615
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Gottfried-R\u00f6hl Grundschule", 
+        "address": "Ungarnstr. 75"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.3962447153096, 
+          52.55170795
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Rudolf-Wissell Grundschule", 
+        "address": "Ellerbeker Str. 7-8"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.3836183366964, 
+          52.55294095
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Gesundbrunnen Grundschule", 
+        "address": "Prinzenallee 8"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.3581559862134, 
+          52.54154295
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Br\u00fcder-Grimm Grundschule", 
+        "address": "Tegeler Str. 18-19"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.3837293588994, 
+          52.557819
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Wilhelm-Hauff Grundschule", 
+        "address": "Gotenburger Str.8"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.3643486946712, 
+          52.5470138
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Wedding Grundschule", 
+        "address": "Antonstr. 10-17"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.3824586882881, 
+          52.5606445
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Carl-Kraemer Grundschule", 
+        "address": "Zechliner Str. 4"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.3797962036738, 
+          52.5435768
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Humboldthain Grundschule", 
+        "address": "Grenzstr. 8"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.3888986913915, 
+          52.56591165
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Andersen Grundschule", 
+        "address": "Kattegatstr. 26"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.3935433329303, 
+          52.54665215
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Heinrich-Seidel Grundschule", 
+        "address": "Ramlerstr. 9-10"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.3911859920645, 
+          52.5380598
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Gustav-Falke Grundschule", 
+        "address": "Strelitzer Str. 42"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.3960457964883, 
+          52.5426794
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Vineta Grundschule", 
+        "address": "Demminer Str. 27"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.3340366182113, 
+          52.5550182
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "M\u00f6wensee Grundschule", 
+        "address": "Afrikanische Str. 123/125"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.3580004668998, 
+          52.550847
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Erika-Mann Grundschule", 
+        "address": "Utrechter Str. 25-27"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.3424623903634, 
+          52.5510216
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Anna-Lindh Grundschule", 
+        "address": "Guineastr. 17-18"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.3736498, 
+          52.5492879
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Albert-Gutzmann-Sch.", 
+        "address": "Orthstr. 1"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.3624797563998, 
+          52.50270875
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Allegro Grundschule", 
+        "address": "L\u00fctzowstr. 83-85"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.361532642743, 
+          52.5441541
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Leo-Lionni Grundschule", 
+        "address": "M\u00fcllerstr. 158"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.3307943973405, 
+          52.52305955
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Miriam-Makeba Grundschule", 
+        "address": "Zinzendorfstr. 15-16"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.3165663, 
+          52.5247079
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Heinrich-von-Stephan Oberschule", 
+        "address": "Neues Ufer 6"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.3857034, 
+          52.5512268
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Willy-Brandt Oberschule", 
+        "address": "Gr\u00fcntaler Str. 5"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.3477701, 
+          52.5467867
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Ernst-Schering Oberschule", 
+        "address": "L\u00fctticher Str. 47/ 48"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.3936657164608, 
+          52.5384792
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Ernst-Reuter Oberschule", 
+        "address": "Stralsunder Str. 57"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.3737169999294, 
+          52.5464977
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Herbert-Hoover Schule", 
+        "address": "Pankstr. 18-19"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.4044434279604, 
+          52.5307489
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "John-Lennon Oberschule", 
+        "address": "Zehdenicker Str. 17"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.3549948084513, 
+          52.5028605
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Franz\u00f6sisches Gymnasium", 
+        "address": "Derfflingerstr. 7"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.3792238, 
+          52.5496568
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Diesterweg Oberschule", 
+        "address": "Putbusser Str. 12"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.4229107324307, 
+          52.5159541
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Max-Planck Oberschule", 
+        "address": "Singerstr. 8a"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.3549948084513, 
+          52.5028605
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Gymnasium Tiergarten", 
+        "address": "Altonaer Str. 26"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.3737610668149, 
+          52.5490809
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Albert-Gutzmann-Schule", 
+        "address": "Orthstr. 1"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.4246270303289, 
+          52.5221193
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Charlotte-Pfeffer-Schule", 
+        "address": "Berolinastr. 8"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          13.3338181, 
+          52.5261191
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Berlin-Kolleg", 
+        "address": "Turmstr. 75"
+      }
+    }
+  ]
+}

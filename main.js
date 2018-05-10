@@ -1,6 +1,7 @@
 var circles = null;
 var radiuses = [100, 200, 300];
 var lastCoordinates = null;
+var schoolLayer;
 
 function addMarkerWithRadius(latlon){
   if (latlon === undefined || latlon === null){
@@ -54,14 +55,7 @@ var osmGeocoder = new L.Control.OSMGeocoder(
     text:"Ort suchen",
     bounds: berlinBounds, 
     callback: function (results) {
-      var bbox = results[0].boundingbox,
-      first = new L.LatLng(bbox[0], bbox[2]),
-      second = new L.LatLng(bbox[1], bbox[3]),
-      bounds = new L.LatLngBounds([first, second]);
-
-      var center = new L.LatLng(results[0].lat, results[0].lon);
-      var latlon = new L.LatLng(results[0].lat, results[0].lon);
-      addMarkerWithRadius(latlon);
+      addMarkerWithRadius(new L.LatLng(results[0].lat, results[0].lon));
     }
   } 
 );
@@ -82,6 +76,19 @@ xhttp.onreadystatechange = function() {
 };
 xhttp.open("GET", "berlin_bezirke.geojson", true);
 xhttp.send();
+
+var schoolsRequest = new XMLHttpRequest();
+schoolsRequest.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    var data = JSON.parse(this.response);
+    schoolLayer = L.geoJSON(data, {onEachFeature: function(feature, layer){
+      layer.bindPopup(feature.properties.name + "<br >" + feature.properties.address)
+      }}).addTo(map);
+    console.log(schoolLayer);
+  }
+};
+schoolsRequest.open("GET", "geoschools-merged.json", true);
+schoolsRequest.send();
 
 
 function update_r(){
@@ -145,12 +152,27 @@ radius_setter.append("<span> Meter Radius </span>"); // TODO align
 
 var print_enabler = $("<div class='leaflet-control-geocoder-form'>");
 print_enabler.append("<input type='checkbox' id='print_enabled'>");
-print_enabler.append("<label for='print_enabled'> Auf Druckgröße verkleinern </label>"); 
+print_enabler.append("<label for='print_enabled'> Auf Druckgröße verkleinern </label>");
+
+var showSchools = $("<div class='leaflet-control-geocoder-form'>");
+showSchools.append("<input type='checkbox' checked id='show_schools'>");
+showSchools.append("<label for='show_schools'>Schulen anzeigen</label>");
 
 $(".leaflet-control-geocoder").append(radius_setter);
 $(".leaflet-control-geocoder").append(print_enabler);
+$(".leaflet-control-geocoder").append(showSchools);
 
-$("#print_enabled").click(function() { set_print();});
+$("#print_enabled").click(set_print);
+
+function toggleSchoolLayer() {
+  if (map.hasLayer(schoolLayer)){
+    map.removeLayer(schoolLayer);
+  } else {
+    map.addLayer(schoolLayer);
+  }
+}
+
+$("#show_schools").click(toggleSchoolLayer);
 
 $(".leaflet-control-geocoder-form").children().first().change(function() { updatePrintHeader();});
 
