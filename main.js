@@ -82,7 +82,9 @@ schoolsRequest.onreadystatechange = function() {
   if (this.readyState == 4 && this.status == 200) {
     var data = JSON.parse(this.response);
     schoolLayer = L.geoJSON(data, {onEachFeature: function(feature, layer){
-      layer.bindPopup(feature.properties.name + "<br >" + feature.properties.address)
+      var popup = new L.popup({autoClose: false, closeOnClick: false});
+      popup.setContent(feature.properties.name + "<br >" + feature.properties.address);
+      layer.bindPopup(popup)
       }}).addTo(map);
     console.log(schoolLayer);
   }
