@@ -26,7 +26,7 @@ function addMarkerWithRadius(latlon){
   });
 
   var colors = ['green', 'blue', 'red'];
-  circles = L.layerGroup();
+  circles = L.featureGroup();
   radiuses = [$("#radius").val(), $("#radius2").val(), $("#radius3").val()]
   radiuses.forEach(function(radius, index){
     var circle = L.circle(latlon, {
@@ -39,7 +39,7 @@ function addMarkerWithRadius(latlon){
     circle.bringToBack();
   });
   circles.addTo(map);
-
+  map.flyToBounds(circles.getBounds());
 }
 
 var cloudmadeAttribution = '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors';
