@@ -86,7 +86,6 @@ schoolsRequest.onreadystatechange = function() {
       popup.setContent(feature.properties.name + "<br >" + feature.properties.address);
       layer.bindPopup(popup)
       }}).addTo(map);
-    console.log(schoolLayer);
   }
 };
 schoolsRequest.open("GET", "geoschools-merged.json", true);
