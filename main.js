@@ -27,8 +27,10 @@ function addMarkerWithRadius(latlon){
 
   var colors = ['green', 'blue', 'red'];
   circles = L.featureGroup();
-  radiuses = [$("#radius").val(), $("#radius2").val(), $("#radius3").val()]
-  radiuses.forEach(function(radius, index){
+  radiuses = [$("#radius").val(), $("#radius2").val(), $("#radius3").val()];
+  radiuses
+    .filter(function(r) { return !!r})
+    .forEach(function(radius, index){
     var circle = L.circle(latlon, {
       radius: radius,
       color: colors[index],
