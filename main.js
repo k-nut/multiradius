@@ -24,8 +24,8 @@ function addMarkerWithRadius(latlon){
     updatePrintHeader();
   });
 
-  var colors = ['green', 'blue', 'red'];
   circles = L.featureGroup();
+  var colors = [$("[name=radius-c]").val(), $("[name=radius-c2]").val(), $("[name=radius-c3]").val()];
   var radiuses = [$("#radius").val(), $("#radius2").val(), $("#radius3").val()];
   radiuses
     .forEach(function(radius, index){
@@ -35,7 +35,6 @@ function addMarkerWithRadius(latlon){
     var circle = L.circle(latlon, {
       radius: radius,
       color: colors[index],
-      fillColor: colors[index],
       fillOpacity: 0.0
     }).addTo(map);
     circle.addTo(circles);
@@ -147,12 +146,15 @@ function emptyIt(){
 
 var radius_setter = $("<div class='leaflet-control-geocoder-form'>");
 radius_setter.append("<input type='text' id=radius name='radius' value='' onKeyUp='update_r()'>");
+radius_setter.append("<input type='color' name='radius-c' value='#ff0000' onChange='update_r()'>");
 radius_setter.append("<span> Meter Radius </span>"); // TODO align
 
 radius_setter.append("<input type='text' id=radius2 name='radius' value='' onKeyUp='update_r()'>");
+radius_setter.append("<input type='color' name='radius-c2' value='#00ff00' onChange='update_r()'>");
 radius_setter.append("<span> Meter Radius </span>"); // TODO align
 
 radius_setter.append("<input type='text' id=radius3 name='radius' value='' onKeyUp='update_r()'>");
+radius_setter.append("<input type='color' name='radius-c3' value='#0000ff' onChange='update_r()'>");
 radius_setter.append("<span> Meter Radius </span>"); // TODO align
 
 var print_enabler = $("<div class='leaflet-control-geocoder-form'>");
