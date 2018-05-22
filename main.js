@@ -1,5 +1,4 @@
 var circles = null;
-var radiuses = [100, 200, 300];
 var lastCoordinates = null;
 var schoolLayer;
 
@@ -27,10 +26,12 @@ function addMarkerWithRadius(latlon){
 
   var colors = ['green', 'blue', 'red'];
   circles = L.featureGroup();
-  radiuses = [$("#radius").val(), $("#radius2").val(), $("#radius3").val()];
+  var radiuses = [$("#radius").val(), $("#radius2").val(), $("#radius3").val()];
   radiuses
-    .filter(function(r) { return !!r})
     .forEach(function(radius, index){
+      if (!radius){
+        return
+      }
     var circle = L.circle(latlon, {
       radius: radius,
       color: colors[index],
@@ -145,13 +146,13 @@ function emptyIt(){
 
 
 var radius_setter = $("<div class='leaflet-control-geocoder-form'>");
-radius_setter.append("<input type='text' id=radius name='radius' value=" + radiuses[0] + " onKeyUp='update_r()'>");
+radius_setter.append("<input type='text' id=radius name='radius' value='' onKeyUp='update_r()'>");
 radius_setter.append("<span> Meter Radius </span>"); // TODO align
 
-radius_setter.append("<input type='text' id=radius2 name='radius' value=" + radiuses[1] + " onKeyUp='update_r()'>");
+radius_setter.append("<input type='text' id=radius2 name='radius' value='' onKeyUp='update_r()'>");
 radius_setter.append("<span> Meter Radius </span>"); // TODO align
 
-radius_setter.append("<input type='text' id=radius3 name='radius' value=" + radiuses[2] + " onKeyUp='update_r()'>");
+radius_setter.append("<input type='text' id=radius3 name='radius' value='' onKeyUp='update_r()'>");
 radius_setter.append("<span> Meter Radius </span>"); // TODO align
 
 var print_enabler = $("<div class='leaflet-control-geocoder-form'>");
