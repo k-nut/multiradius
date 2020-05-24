@@ -44,8 +44,8 @@ function addMarkerWithRadius(latlon){
   map.flyToBounds(circles.getBounds());
 }
 
-var cloudmadeAttribution = '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors';
-var cloudmade = new L.TileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+var cloudmadeAttribution = '&copy; <a href="https://osm.org/copyright">OpenStreetMap</a> contributors';
+var cloudmade = new L.TileLayer('https://{s}.tile.osm.org/{z}/{x}/{y}.png', {
   attribution: cloudmadeAttribution
 });
 
