@@ -134,7 +134,7 @@ function set_print(){
 function updatePrintHeader(){
   var searchInput = $(".leaflet-control-geocoder-form").children().first().val();
   var values = [$("#radius").val(), $("#radius2").val(),$("#radius3").val()].filter(function (v) { return !!v});
-  $("#print-header").text(searchInput + '| Radius: ' +  values.join(" / ")+ ' Meter');
+  $("#print-header").text(searchInput + ' (Radius: ' +  values.join(" / ")+ ' Meter)');
 }
 
 function emptyIt(){
