@@ -49,7 +49,7 @@ var cloudmade = new L.TileLayer('https://{s}.tile.osm.org/{z}/{x}/{y}.png', {
   attribution: cloudmadeAttribution
 });
 
-var map = new L.Map('map').addLayer(cloudmade).setView(new L.LatLng(52.52, 13.35), 11);
+var map = new L.Map('map', {zoomSnap: 0.1}).addLayer(cloudmade).setView(new L.LatLng(52.52, 13.35), 11);
 
 var berlinBounds = new L.LatLngBounds([52.3380737304688, 13.0883140563965], [52.6754760742188, 13.7609090805054]);
 var osmGeocoder = new L.Control.OSMGeocoder(
