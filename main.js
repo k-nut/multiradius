@@ -105,7 +105,7 @@ function set_print(){
   var mapHeight = $('#map').height();
   var ratio = mapWidth / mapHeight;
   var A4Width = '18cm';
-  var A4Height = '20cm';
+  var A4Height = '22cm';
   var checked = $('#print_enabled').is(':checked');
   if (checked){
     if (ratio < 1){
